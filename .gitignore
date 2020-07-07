@@ -1,0 +1,16 @@
+
+# taf folders
+/bootstrap/data/
+/bootstrap/library/
+/bootstrap/software/
+
+/data/
+/model/
+/output/
+/report/
+
+# notes
+/.notes/
+
+# workspace stuff
+*.code-workspace
