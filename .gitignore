@@ -14,3 +14,6 @@
 
 # workspace stuff
 *.code-workspace
+
+# qgis file
+*.qgz
