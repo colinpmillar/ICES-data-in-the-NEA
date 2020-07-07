@@ -1,28 +1,31 @@
-ICES data in the NEA
-================
+---
+title: ICES data in the NEA
+output:
+  github_document:
+    html_preview: false
+---
 
 ### How to run / build
 
-This code is built using ices TAF framework. To builld, install the
+This code is built using ices TAF framework.  To builld, install the
 [icesTAF](https://github.com/ices-tools-prod/icesTAF) package from CRAN.
 
 Then open R in the `ICES-data-in-the-NEA` directory and run:
 
-``` r
+```{r eval=FALSE}
 library(icesTAF)
 taf.bootstrap()
 sourceAll()
 ```
 
 To build the readme, run:
-
-``` r
+```{r eval = FALSE}
 rmarkdown::render("README.Rmd")
 ```
 
 ### how this code was created
 
-``` r
+```{r eval=FALSE}
 # make empty TAF analysis skeleton
 taf.skeleton()
 
